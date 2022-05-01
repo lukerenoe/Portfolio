@@ -1,6 +1,6 @@
 
 
-header {
+h1 {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
@@ -10,8 +10,42 @@ header {
 }
 
 
-li {
-    color: white;
-    font-size: large;
+nav ul {
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    padding: 2px;
+    min-width: 300px;
     list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.image2 {
+    display: inline;
+justify-content: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.image1 {
+    justify-content: left;
+    display: inline;
+}
+
+.image3 {
+    display: inline;
+    justify-content: end;
 }
