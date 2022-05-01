@@ -1,0 +1,17 @@
+
+
+header {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+li {
+    color: white;
+    font-size: large;
+    list-style: none;
+}
