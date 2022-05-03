@@ -1,17 +1,16 @@
-
+:root {
+    --card: 
+}
 
 header {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: relative;
     align-items: center;
     background-color: black;
     color: aliceblue;
     height: 6rem;
-    
 }
 
 h1 {
@@ -35,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: aquamarine;
+    color:darkslategray;
 }
 
 main {
@@ -44,37 +43,119 @@ main {
 
 }
 
-section {
-    
+article {
+    position: absolute;
     display: flex;
-    border: .5rem aquamarine solid;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-/* .image2 {
-    display: inline;
-justify-content: center;
-padding-left: 20px;
-padding-right: 20px;
+section1 {
+    display: flex;
+    border: .2rem darkslategray;
+    position: relative;
+    width: 30rem;
+    border-radius: 1rem;
+    height: 30rem;
+    padding: 3rem;
+    margin: 1rem 4rem;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/580a75e103596ef7c3a8ed74/1616215216693-ZIXP863TESBR3J1LBCR3/blm.jpg?format=2500w);
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+section2 {
+    display: flex;
+    border: .2rem darkslategray;
+    position: relative;
+    width: 30rem;
+    border-radius: 1rem;
+    height: 30rem;
+    padding: 3rem;
+    margin: 1rem 4rem;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/580a75e103596ef7c3a8ed74/1616216144390-I19BRWO4881CY24JRK2E/lost+in+the+woods+copy.jpg?format=2500w);
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+section3 {
+    display: flex;
+    border: .2rem darkslategray;
+    position: relative;
+    width: 30rem;
+    border-radius: 1rem;
+    height: 30rem;
+    padding: 3rem;
+    margin: 1rem 4rem;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/580a75e103596ef7c3a8ed74/1616215274645-IC2A7GGKQNY09EJP95JB/Blood+on+the+Roots%2C+Blood+on+the+Branches.jpg?format=500w");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
 }
 
-.image1 {
-    justify-content: left;
-    display: inline;
-}
-
-.image3 {
-    display: inline;
-    justify-content: end;
-}
-
-p a:hover {
-    background-color: aliceblue;
+/* .overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
 } */
+
+h2 {
+    display: flex;
+    border: .1rem solid darkslategray;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 500rem;
+    align-items: center;
+    padding: 5%;
+    margin-top: 25rem;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+h3 {
+    display: flex;
+    border: .1rem solid darkslategray;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 500rem;
+    align-items: center;
+    padding: 5%;
+    margin-top: 25rem;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+h4 {
+    display: flex;
+    border: .1rem solid darkslategray;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 500rem;
+    align-items: center;
+    padding: 5%;
+    margin-top: 25rem;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.article1 :hover {
+    background-color: rgb(0, 0, 0);
+}
+
+/* 
+aside {
+    background-color: black;
+    height: 100rem;
+    width: 25rem;
+    color: darkslategray;
+    display: block;
+} */
+
+
+
